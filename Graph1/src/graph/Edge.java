@@ -5,6 +5,7 @@ public class Edge<T> {
 	private Vertex<T> v1;
 	private Vertex<T> v2;
 	
+	
 	public Edge(Vertex<T> v1, Vertex<T> v2) throws NullPointerException {
 		if (v1 == null || v2 == null)
 			throw new NullPointerException();

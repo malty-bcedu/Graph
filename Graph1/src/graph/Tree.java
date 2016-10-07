@@ -6,6 +6,7 @@ import graph.exception.InvalidConstructionException;
 
 public class Tree<T> extends ConnectedGraph<T> {
 	
+	
 	protected Vertex<T> root = null;
 	
 	public Tree(T rootValue) throws InvalidConstructionException {

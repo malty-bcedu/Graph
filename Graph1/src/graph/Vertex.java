@@ -1,6 +1,7 @@
 package graph;
 
 public class Vertex<T>{
+	
 
 	private T data;
 	private boolean visited;

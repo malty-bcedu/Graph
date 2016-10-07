@@ -57,6 +57,7 @@ public class GraphTest {
 					} 
 					br.close();
 				}	
+				
 				catch (InvalidConstructionException e) {
 					System.out.println(e.toString());
 					graph = null;

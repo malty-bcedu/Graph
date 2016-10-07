@@ -4,6 +4,7 @@ import graph.exception.InvalidConstructionException;
 
 public class ConnectedGraph<T> extends Graph<T> {
 	
+	
 	public ConnectedGraph() {
 		super();
 	}
